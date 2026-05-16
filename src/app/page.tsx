@@ -1,65 +1,255 @@
+import Link from "next/link";
 import Image from "next/image";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import StatsBar from "@/components/StatsBar";
+
+const services = [
+  {
+    title: "Plek #1 in Google",
+    description:
+      "Wanneer iemand zoekt op 'makelaar Maastricht' of 'huis kopen Utrecht', wij zorgen dat jij bovenaan staat in jouw regio.",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-8 h-8">
+        <circle cx="11" cy="11" r="8" /><path d="m21 21-4.35-4.35" />
+      </svg>
+    ),
+  },
+  {
+    title: "Winnende contentstrategie",
+    description:
+      "Wij ontwikkelen content die écht relevant is voor jouw doelgroep. Meer websiteverkeer, meer zichtbaarheid en meer mensen die jou leren kennen.",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-8 h-8">
+        <path d="M12 2L2 7l10 5 10-5-10-5z" /><path d="M2 17l10 5 10-5" /><path d="M2 12l10 5 10-5" />
+      </svg>
+    ),
+  },
+  {
+    title: "Meer klanten via social media",
+    description:
+      "Van Instagram en TikTok tot LinkedIn, wij zorgen dat jij opvalt, vertrouwen wekt en klanten aantrekt via social media.",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-8 h-8">
+        <rect x="5" y="2" width="14" height="20" rx="2" /><path d="M12 18h.01" />
+      </svg>
+    ),
+  },
+  {
+    title: "Van websitebezoeker naar klant",
+    description:
+      "Veel bezoekers maar weinig reacties? Wij zorgen dat mensen sneller contact opnemen of een bezichtiging plannen.",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-8 h-8">
+        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /><polyline points="9 22 9 12 15 12 15 22" />
+      </svg>
+    ),
+  },
+  {
+    title: "Converterende e-mail strategie",
+    description:
+      "Blijf top of mind bij kopers, huurders en relaties. Wij bouwen slimme e-mailcampagnes die leads omzetten naar klanten.",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-8 h-8">
+        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+        <polyline points="22,6 12,13 2,6" />
+      </svg>
+    ),
+  },
+  {
+    title: "Live inzichten in de resultaten",
+    description:
+      "Realtime overzicht van je resultaten. Zo weet je precies waar je klanten vandaan komen en wat je marketing oplevert.",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-8 h-8">
+        <line x1="18" y1="20" x2="18" y2="10" /><line x1="12" y1="20" x2="12" y2="4" /><line x1="6" y1="20" x2="6" y2="14" />
+      </svg>
+    ),
+  },
+];
+
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+    <>
+      <Navbar />
+      <main>
+        {/* Hero */}
+        <section className="relative bg-[var(--color-navy)] min-h-screen flex items-center">
+          <Image
+            src="https://images.unsplash.com/photo-1583295125721-766a0088cd3f?w=1800&q=80&fit=crop"
+            alt="Amsterdamse grachtenpanden"
+            fill
+            className="object-cover object-center"
+            priority
+          />
+          <div className="absolute inset-0 bg-[var(--color-navy)]/85" />
+          <div className="relative max-w-6xl mx-auto px-6 pt-32 pb-24">
+            <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-8">
+              Online marketing voor vastgoed in jouw regio
+            </p>
+            <h1 className="text-white text-5xl md:text-7xl font-serif font-semibold leading-tight mb-8 max-w-3xl">
+              De online marketing<br />specialist voor<br />
+              <span className="text-[var(--color-gold)]">makelaars & vastgoed.</span>
+            </h1>
+            <p className="text-white/85 text-lg md:text-xl leading-relaxed max-w-2xl mb-12">
+              Wij zorgen dat kopers, huurders en vastgoedeigenaren jou als eerste vinden én blijven zien, van Google tot LinkedIn, Instagram en Funda.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link
+                href="/contact"
+                className="px-8 py-4 bg-[var(--color-gold)] text-[var(--color-navy)] font-semibold tracking-widest uppercase text-sm hover:bg-[var(--color-gold-light)] transition-colors duration-200 text-center"
+              >
+                Gratis adviesgesprek
+              </Link>
+              <Link
+                href="/diensten"
+                className="px-8 py-4 border border-white/20 text-white font-semibold tracking-widest uppercase text-sm hover:border-[var(--color-gold)] hover:text-[var(--color-gold)] transition-colors duration-200 text-center"
+              >
+                Bekijk diensten
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        <StatsBar />
+
+        {/* Diensten */}
+        <section className="py-28 bg-[var(--color-cream)]">
+          <div className="max-w-6xl mx-auto px-6">
+            <div className="mb-16">
+              <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-4">Wat wij doen</p>
+              <h2 className="text-4xl md:text-5xl font-serif text-[var(--color-navy)]">
+                Alles wat je nodig hebt om online te groeien
+              </h2>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {services.map((s) => (
+                <div
+                  key={s.title}
+                  className="bg-white p-8 border-t-2 border-[var(--color-gold)] hover:shadow-lg transition-shadow duration-300"
+                >
+                  <div className="text-[var(--color-gold)] mb-6">{s.icon}</div>
+                  <h3 className="text-[var(--color-navy)] text-xl font-serif mb-3">{s.title}</h3>
+                  <p className="text-[var(--color-navy)]/60 text-sm leading-relaxed">{s.description}</p>
+                </div>
+              ))}
+            </div>
+            <div className="mt-12 text-center">
+              <Link
+                href="/diensten"
+                className="inline-block px-8 py-4 bg-[var(--color-navy)] text-white font-semibold tracking-widest uppercase text-sm hover:bg-[var(--color-navy-light)] transition-colors duration-200"
+              >
+                Alle diensten
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Waarom wij */}
+        <section className="py-28 bg-white">
+          <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <div>
+              <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-4">Waarom wij</p>
+              <h2 className="text-4xl md:text-5xl font-serif text-[var(--color-navy)] mb-8">
+                Volledige focus op vastgoed, met ervaring uit meerdere sectoren
+              </h2>
+              <p className="text-[var(--color-navy)]/60 leading-relaxed mb-6">
+                Omdat wij ons volledig richten op de vastgoedmarkt, kunnen wij gerichtere en effectievere online marketingstrategieën toepassen. Geen generieke aanpak, maar werk dat past bij jouw sector.
+              </p>
+              <p className="text-[var(--color-navy)]/60 leading-relaxed mb-10">
+                Onze ervaring in andere branches brengen wij mee. Wat werkt in andere markten passen wij slim toe op vastgoed. Zo profiteer jij van bewezen inzichten die anderen in de vastgoedsector nog niet hebben.
+              </p>
+              <Link
+                href="/over-ons"
+                className="inline-block px-8 py-4 border-2 border-[var(--color-navy)] text-[var(--color-navy)] font-semibold tracking-widest uppercase text-sm hover:bg-[var(--color-navy)] hover:text-white transition-colors duration-200"
+              >
+                Over ons
+              </Link>
+            </div>
+            <div className="flex flex-col gap-4">
+              <div className="relative h-64 overflow-hidden">
+                <Image
+                  src="https://images.unsplash.com/photo-1623005329287-0848374575d3?w=800&q=80&fit=crop"
+                  alt="Luxe Nederlandse villa"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                {[
+                  { title: "Regionaal sterk", body: "Wij zorgen dat jij dé bekendste naam bent in jouw regio." },
+                  { title: "Datagedreven", body: "Elke beslissing onderbouwd met cijfers en inzichten." },
+                  { title: "Transparant", body: "Volledige inzage in resultaten via realtime dashboards." },
+                  { title: "Resultaatgericht", body: "Wij meten succes in leads, verkopen en omzet." },
+                ].map((item) => (
+                  <div key={item.title} className="bg-[var(--color-cream)] p-6">
+                    <h4 className="text-[var(--color-navy)] font-serif text-lg mb-2">{item.title}</h4>
+                    <p className="text-[var(--color-navy)]/60 text-sm leading-relaxed">{item.body}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Quickscan */}
+        <section className="py-24 bg-[var(--color-navy)]">
+          <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+              <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-4">Volledig gratis</p>
+              <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">
+                Ontdek jouw 5 grootste online kansen
+              </h2>
+              <p className="text-white/70 leading-relaxed mb-8">
+                Wij analyseren jouw online zichtbaarheid en leveren binnen 48 uur een persoonlijk rapport met 5 concrete winsten voor jouw vastgoedbedrijf. Gratis, zonder verplichtingen.
+              </p>
+              <Link
+                href="/quickscan"
+                className="inline-block px-8 py-4 bg-[var(--color-gold)] text-[var(--color-navy)] font-semibold tracking-widest uppercase text-sm hover:bg-[var(--color-gold-light)] transition-colors duration-200"
+              >
+                Ontvang jouw gratis quickscan
+              </Link>
+            </div>
+            <div className="grid grid-cols-1 gap-4">
+              {[
+                "Hoe vindbaar ben jij in Google?",
+                "Wat doet jouw concurrent beter?",
+                "Waarom haken bezoekers af op je website?",
+                "Welke social media kansen laat je liggen?",
+                "Wat levert betere marketing jou concreet op?",
+              ].map((item, i) => (
+                <div key={item} className="flex items-center gap-4 bg-white/5 px-6 py-4 border border-white/10">
+                  <span className="text-[var(--color-gold)] font-serif text-lg font-bold opacity-60 w-6 flex-shrink-0">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <span className="text-white/80 text-sm">{item}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* CTA */}
+        <section className="bg-[var(--color-navy)] py-28">
+          <div className="max-w-3xl mx-auto px-6 text-center">
+            <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-6">Klaar om te groeien?</p>
+            <h2 className="text-4xl md:text-5xl font-serif text-white mb-8">
+              Plan een gratis adviesgesprek
+            </h2>
+            <p className="text-white/60 text-lg mb-12 leading-relaxed">
+              In 30 minuten bespreken we jouw situatie en kansen online. Daarna ontvang je een vrijblijvend voorstel op maat, volledig meetbaar.
+            </p>
+            <Link
+              href="/contact"
+              className="inline-block px-10 py-5 bg-[var(--color-gold)] text-[var(--color-navy)] font-semibold tracking-widest uppercase text-sm hover:bg-[var(--color-gold-light)] transition-colors duration-200"
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+              Vrijblijvend gesprek inplannen
+            </Link>
+          </div>
+        </section>
       </main>
-    </div>
+      <Footer />
+    </>
   );
 }
