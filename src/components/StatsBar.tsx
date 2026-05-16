@@ -39,7 +39,7 @@ function StatItem({ value, suffix, prefix, label, sublabel, staticText }: (typeo
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => { if (entry.isIntersecting) setActive(true); },
-      { threshold: 0.5 }
+      { threshold: 0.2 }
     );
     if (ref.current) observer.observe(ref.current);
     return () => observer.disconnect();
