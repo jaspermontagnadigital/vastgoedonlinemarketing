@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const links = [
@@ -12,6 +13,7 @@ const links = [
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
@@ -30,7 +32,16 @@ export default function Navbar() {
 
       <header className="fixed top-0 left-0 right-0 z-50 bg-[var(--color-navy)]/95 backdrop-blur-sm border-b border-white/10">
         <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-20">
-          <Link href="/" className="flex flex-col leading-tight">
+          <Link
+            href="/"
+            className="flex flex-col leading-tight"
+            onClick={(e) => {
+              if (pathname === "/") {
+                e.preventDefault();
+                window.location.reload();
+              }
+            }}
+          >
             <span className="text-[var(--color-gold)] font-serif text-lg font-semibold tracking-wide">
               Vastgoed
             </span>
