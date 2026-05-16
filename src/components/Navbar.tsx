@@ -55,7 +55,7 @@ export default function Navbar() {
               <Link
                 key={l.href}
                 href={l.href}
-                className="text-white/70 hover:text-[var(--color-gold)] text-sm tracking-widest uppercase transition-colors duration-200"
+                className="text-white hover:text-[var(--color-gold)] text-sm tracking-widest uppercase transition-colors duration-200"
               >
                 {l.label}
               </Link>
@@ -90,7 +90,7 @@ export default function Navbar() {
                 key={l.href}
                 href={l.href}
                 onClick={() => setOpen(false)}
-                className="text-white/70 hover:text-[var(--color-gold)] text-sm tracking-widest uppercase transition-colors"
+                className="text-white hover:text-[var(--color-gold)] text-sm tracking-widest uppercase transition-colors"
               >
                 {l.label}
               </Link>
