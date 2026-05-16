@@ -3,10 +3,10 @@
 import { useEffect, useRef, useState } from "react";
 
 const stats = [
-  { value: 10, suffix: "+ jaar", label: "Online marketing ervaring" },
-  { value: 2, suffix: "x", label: "Meer websitebezoek", sublabel: "binnen 4 maanden" },
-  { value: 300, suffix: "%", label: "Meer leads gemiddeld" },
-  { value: 100, suffix: "%", label: "Transparant over resultaten" },
+  { value: 10, suffix: "+ jaar", label: "Online marketing ervaring", prefix: "", sublabel: "", staticText: "" },
+  { value: 2, suffix: "x", label: "Meer websitebezoek", sublabel: "binnen 4 maanden", prefix: "", staticText: "" },
+  { value: 300, suffix: "%", label: "Meer leads gemiddeld", prefix: "", sublabel: "", staticText: "" },
+  { value: 100, suffix: "%", label: "Transparant over resultaten", prefix: "", sublabel: "", staticText: "" },
 ];
 
 function useCountUp(target: number, active: boolean, duration = 1800) {
