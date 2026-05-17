@@ -80,15 +80,17 @@ export default function QuickscanPage() {
             </div>
             <div className="space-y-6">
               {wins.map((w) => (
-                <div key={w.number} className="bg-white p-8 md:p-10 grid grid-cols-1 md:grid-cols-[80px_1fr] gap-6 items-start">
-                  <div className="bg-[var(--color-navy)] w-24 h-24 flex items-center justify-center flex-shrink-0">
+                <div key={w.number} className="bg-white grid grid-cols-1 md:grid-cols-[96px_1fr] items-stretch">
+                  <div className="bg-[var(--color-navy)] flex items-center justify-center flex-shrink-0 min-h-24 p-4">
                     <span className="text-[var(--color-gold)] font-serif text-3xl font-bold">{w.number}</span>
                   </div>
+                  <div className="p-8 md:p-10">
                   <div>
                     <h3 className="text-[var(--color-navy)] font-serif text-xl mb-3">{w.title}</h3>
                     <p className="text-[var(--color-navy)]/60 text-sm leading-relaxed">{w.description}</p>
                   </div>
                 </div>
+
               ))}
             </div>
           </div>
