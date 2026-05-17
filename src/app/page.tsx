@@ -89,7 +89,7 @@ export default function Home() {
               De online marketing<br />specialist voor<br />
               <span className="text-[var(--color-gold)]">makelaars & vastgoed.</span>
             </h1>
-            <p className="text-white text-lg md:text-xl leading-relaxed max-w-2xl mb-12">
+            <p className="text-white text-sm md:text-xl leading-relaxed max-w-2xl mb-12">
               Wij zorgen dat kopers, huurders en vastgoedeigenaren jou als eerste vinden én blijven zien, van Google tot LinkedIn, Instagram en Funda.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">

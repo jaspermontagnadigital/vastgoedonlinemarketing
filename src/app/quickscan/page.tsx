@@ -56,7 +56,7 @@ export default function QuickscanPage() {
             <h1 className="text-white text-3xl md:text-6xl font-serif font-semibold max-w-3xl leading-tight mb-6">
               Ontdek wat jouw vastgoedbedrijf online laat liggen
             </h1>
-            <p className="text-white text-lg max-w-xl leading-relaxed mb-8">
+            <p className="text-white text-sm md:text-lg max-w-xl leading-relaxed mb-8">
               Binnen een week weet je precies waar je klanten misloopt en hoe je dat oplost. Één extra opdracht dekt de investering ruimschoots.
             </p>
             <div className="flex items-end gap-4">
