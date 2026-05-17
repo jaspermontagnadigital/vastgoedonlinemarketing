@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -197,6 +198,21 @@ export default function VoorWiePage() {
             </div>
           </div>
         </section>
+
+        {/* Foto tussenstuk */}
+        <div className="relative h-80 overflow-hidden">
+          <Image
+            src="https://images.unsplash.com/photo-1731941407490-d0bb29e1ea95?w=1800&q=80&fit=crop"
+            alt="Vastgoed Nederland"
+            fill
+            className="object-cover object-center"
+          />
+          <div className="absolute inset-0 bg-[var(--color-navy)]/50 flex items-center justify-center">
+            <p className="text-white font-serif text-3xl md:text-4xl text-center px-6 max-w-2xl">
+              Wij groeien wanneer jouw bedrijf groeit
+            </p>
+          </div>
+        </div>
 
         {/* Uitgewerkte doelgroepen */}
         {doelgroepen.map((d, i) => (
