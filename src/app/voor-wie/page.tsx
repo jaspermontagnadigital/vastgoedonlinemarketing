@@ -16,8 +16,10 @@ const doelgroepen = [
     subtitel: "Meer zichtbaarheid bij de juiste doelgroep in jouw regio",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.2} className="w-8 h-8">
-        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-        <polyline points="9 22 9 12 15 12 15 22" />
+        <circle cx="11" cy="11" r="5" />
+        <path d="M11 8v3l2 2" />
+        <path d="m21 21-4.35-4.35" />
+        <path d="M3 7h4M3 12h2M3 17h4" />
       </svg>
     ),
     intro:
@@ -38,8 +40,8 @@ const doelgroepen = [
     subtitel: "Meer adviesgesprekken met mensen die actief bezig zijn met wonen",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.2} className="w-8 h-8">
-        <rect x="2" y="3" width="20" height="14" rx="2" />
-        <path d="M8 21h8M12 17v4" />
+        <path d="M9 12h6M9 16h4M4 6h16v14a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6z" />
+        <path d="M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2" />
       </svg>
     ),
     intro:
@@ -60,10 +62,10 @@ const doelgroepen = [
     subtitel: "Meer aandacht en leads voor projecten in de regio",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.2} className="w-8 h-8">
-        <rect x="2" y="7" width="20" height="15" rx="1" />
-        <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-        <line x1="12" y1="12" x2="12" y2="17" />
-        <line x1="9" y1="14.5" x2="15" y2="14.5" />
+        <rect x="2" y="14" width="6" height="8" />
+        <rect x="9" y="9" width="6" height="13" />
+        <rect x="16" y="4" width="6" height="18" />
+        <path d="M2 22h20" />
       </svg>
     ),
     intro:
@@ -84,9 +86,9 @@ const doelgroepen = [
     subtitel: "Meer aanvragen van eigenaren, beleggers en VvE's",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.2} className="w-8 h-8">
-        <path d="M12 2L2 7l10 5 10-5-10-5z" />
-        <path d="M2 17l10 5 10-5" />
-        <path d="M2 12l10 5 10-5" />
+        <circle cx="12" cy="12" r="3" />
+        <path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14" />
+        <path d="M15.54 8.46a5 5 0 0 1 0 7.07M8.46 8.46a5 5 0 0 0 0 7.07" />
       </svg>
     ),
     intro:
@@ -107,10 +109,8 @@ const doelgroepen = [
     subtitel: "Meer bereik onder huurders, verhuurders en woningzoekenden",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.2} className="w-8 h-8">
-        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-        <circle cx="9" cy="7" r="4" />
-        <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
-        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+        <circle cx="12" cy="10" r="3" />
       </svg>
     ),
     intro:
