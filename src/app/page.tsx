@@ -16,16 +16,6 @@ const services = [
     ),
   },
   {
-    title: "Winnende contentstrategie",
-    description:
-      "Wij ontwikkelen content die écht relevant is voor jouw doelgroep. Meer websiteverkeer, meer zichtbaarheid en meer mensen die jou leren kennen.",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-8 h-8">
-        <path d="M12 2L2 7l10 5 10-5-10-5z" /><path d="M2 17l10 5 10-5" /><path d="M2 12l10 5 10-5" />
-      </svg>
-    ),
-  },
-  {
     title: "Meer klanten via social media",
     description:
       "Van Instagram en TikTok tot LinkedIn, wij zorgen dat jij opvalt, vertrouwen wekt en klanten aantrekt via social media.",
