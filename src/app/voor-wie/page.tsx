@@ -161,49 +161,43 @@ export default function VoorWiePage() {
               Herken jij jouw bedrijf?
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {doelgroepen.map((d, i) => (
+              {doelgroepen.map((d) => (
                 <a
                   key={d.id}
                   href={`#${d.id}`}
-                  className={`group p-8 flex flex-col gap-6 transition-all duration-300 hover:shadow-xl ${
-                    i === 0 ? "md:col-span-2 lg:col-span-1 bg-[var(--color-navy)]" : "bg-white"
-                  }`}
+                  className="group bg-white p-8 flex flex-col gap-6 transition-all duration-300 hover:shadow-xl border-t-2 border-transparent hover:border-[var(--color-gold)]"
                 >
-                  <div className={`${i === 0 ? "text-[var(--color-gold)]" : "text-[var(--color-navy)]"} group-hover:text-[var(--color-gold)] transition-colors`}>
+                  <div className="text-[var(--color-navy)] group-hover:text-[var(--color-gold)] transition-colors">
                     {d.icon}
                   </div>
                   <div>
-                    <h3 className={`font-serif text-xl mb-2 ${i === 0 ? "text-white" : "text-[var(--color-navy)]"}`}>
-                      {d.titel}
-                    </h3>
-                    <p className={`text-sm leading-relaxed ${i === 0 ? "text-white" : "text-[var(--color-navy)]/60"}`}>
-                      {d.subtitel}
-                    </p>
+                    <h3 className="font-serif text-xl mb-2 text-[var(--color-navy)]">{d.titel}</h3>
+                    <p className="text-sm leading-relaxed text-[var(--color-navy)]/60">{d.subtitel}</p>
                   </div>
-                  <span className={`text-xs tracking-widest uppercase font-semibold mt-auto ${i === 0 ? "text-[var(--color-gold)]" : "text-[var(--color-navy)]"} group-hover:text-[var(--color-gold)] transition-colors`}>
+                  <span className="text-xs tracking-widest uppercase font-semibold mt-auto text-[var(--color-navy)] group-hover:text-[var(--color-gold)] transition-colors">
                     Lees meer ↓
                   </span>
                 </a>
               ))}
               {/* 6e blok: Ook interessant voor */}
-              <div className="bg-[var(--color-navy)] p-8 flex flex-col gap-6">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.2} className="w-8 h-8 text-[var(--color-gold)]">
+              <div className="group bg-white p-8 flex flex-col gap-6 border-t-2 border-transparent">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.2} className="w-8 h-8 text-[var(--color-navy)]">
                   <circle cx="12" cy="12" r="10" /><path d="M12 8v4M12 16h.01" />
                 </svg>
                 <div>
-                  <h3 className="font-serif text-xl mb-2 text-white">Ook interessant voor</h3>
-                  <p className="text-sm leading-relaxed text-white mb-3">
+                  <h3 className="font-serif text-xl mb-2 text-[var(--color-navy)]">Ook interessant voor</h3>
+                  <p className="text-sm leading-relaxed text-[var(--color-navy)]/60 mb-3">
                     Werk je in of rondom vastgoed maar staat jouw type bedrijf er niet tussen? Dan denken we graag mee.
                   </p>
                   <ul className="space-y-1">
                     {ookInteressant.map((item) => (
-                      <li key={item} className="text-white text-sm flex items-center gap-2">
+                      <li key={item} className="text-[var(--color-navy)]/60 text-sm flex items-center gap-2">
                         <span className="text-[var(--color-gold)] text-xs">·</span>{item}
                       </li>
                     ))}
                   </ul>
                 </div>
-                <Link href="/contact" className="text-xs tracking-widest uppercase font-semibold text-[var(--color-gold)] mt-auto hover:text-[var(--color-gold-light)] transition-colors">
+                <Link href="/contact" className="text-xs tracking-widest uppercase font-semibold mt-auto text-[var(--color-navy)] hover:text-[var(--color-gold)] transition-colors">
                   Denk met ons mee ↓
                 </Link>
               </div>
