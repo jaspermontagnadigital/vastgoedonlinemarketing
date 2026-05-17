@@ -89,6 +89,19 @@ const services = [
       "Procesanalyse: waar kan AI jou tijd besparen?",
     ],
   },
+  {
+    title: "Website ontwikkeling voor vastgoed",
+    subtitle: "Website ontwikkeling",
+    description:
+      "Een professionele website die niet alleen mooi is, maar ook bezoekers omzet naar klanten. Wij bouwen websites specifiek voor vastgoedbedrijven — snel, overzichtelijk en gericht op meer aanvragen.",
+    points: [
+      "Websites op maat voor makelaars en vastgoedbedrijven",
+      "Snel, mobiel vriendelijk en technisch sterk",
+      "Gebouwd om gevonden te worden in Google",
+      "Duidelijke structuur die bezoekers naar actie leidt",
+      "Koppelingen met jouw bestaande systemen en tools",
+    ],
+  },
 ];
 
 export default function DienstenPage() {
