@@ -5,33 +5,33 @@ import Footer from "@/components/Footer";
 const wins = [
   {
     number: "01",
-    title: "Hoe goed ben jij vindbaar in Google?",
+    title: "Waar zit jouw grootste groeikans in Google?",
     description:
-      "Wij analyseren hoe jij scoort in Google voor de belangrijkste zoekopdrachten in jouw regio. Je ziet precies waar je staat en hoeveel potentiële klanten je nu mist.",
+      "Wij analyseren hoe jij scoort in Google in jouw regio. Je ziet direct hoeveel groeipotentieel er nog onbenut is en welke zoekopdrachten je nu omzet kosten.",
   },
   {
     number: "02",
-    title: "Wat doet je concurrent beter online?",
+    title: "Hoe groeit jouw concurrent en hoe haal jij hem in?",
     description:
-      "We brengen in kaart wat andere vastgoedbedrijven in jouw regio online doen. Zo zie je direct waar de kansen liggen om hen voorbij te gaan.",
+      "We brengen in kaart wat andere vastgoedbedrijven in jouw regio online doen. Zo zie je precies waar de groeikansen liggen om hen voorbij te gaan.",
   },
   {
     number: "03",
-    title: "Waarom haken bezoekers af op je website?",
+    title: "Wat blokkeert jouw groei op de website?",
     description:
-      "We analyseren jouw website en laten zien waar mensen afhaken. Kleine aanpassingen kunnen direct zorgen voor meer contactaanvragen en bezichtigingen.",
+      "We analyseren waarom bezoekers afhaken. Kleine verbeteringen kunnen direct voor meer groei zorgen in contactaanvragen en bezichtigingen.",
   },
   {
     number: "04",
-    title: "Welke social media kansen laat je liggen?",
+    title: "Welke social media groeikansen benut je nog niet?",
     description:
-      "We bekijken jouw huidige social media aanwezigheid en laten zien hoe je met minder moeite meer bereik en meer klanten kunt genereren.",
+      "We bekijken jouw social media aanwezigheid en laten zien hoe je met minder moeite sneller groeit in bereik, vertrouwen en nieuwe klanten.",
   },
   {
     number: "05",
-    title: "Wat levert betere online marketing jou op?",
+    title: "Hoeveel groei is er realistisch mogelijk voor jou?",
     description:
-      "Op basis van de scan geven we een concrete inschatting van hoeveel extra leads en aanvragen betere online marketing voor jouw situatie kan opleveren.",
+      "Op basis van de scan geven we een concrete inschatting van jouw groeipotentieel. Hoeveel extra leads, aanvragen en omzet zijn er mogelijk in jouw situatie?",
   },
 ];
 
@@ -66,9 +66,9 @@ export default function QuickscanPage() {
         <section className="py-24 bg-[var(--color-cream)]">
           <div className="max-w-6xl mx-auto px-6">
             <div className="mb-16">
-              <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-4">Wat je ontvangt</p>
+              <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-4">Jouw groeipotentieel</p>
               <h2 className="text-3xl md:text-4xl font-serif text-[var(--color-navy)]">
-                5 grote winsten voor jouw vastgoedbedrijf
+                5 concrete groeikansen voor jouw vastgoedbedrijf
               </h2>
             </div>
             <div className="space-y-6">
@@ -93,7 +93,7 @@ export default function QuickscanPage() {
                 Bespaar €600
               </div>
               <h2 className="text-3xl md:text-4xl font-serif text-[var(--color-navy)] mb-4">
-                Investering die zichzelf terugverdient
+                Jouw groei begint met inzicht
               </h2>
               <div className="flex items-end gap-3 mb-2">
                 <span className="text-[var(--color-navy)] text-4xl font-serif font-bold">€795</span>
@@ -101,7 +101,7 @@ export default function QuickscanPage() {
               </div>
               <p className="text-[var(--color-navy)]/40 text-sm mb-6">Minder dan €2,20 per dag</p>
               <p className="text-[var(--color-navy)]/60 leading-relaxed mb-6">
-                Eén gemiste opdracht kost je al snel meer dan deze investering. Met de quickscan weet je precies waar je nu klanten misloopt en hoe je dat direct oplost.
+                Groei begint met weten waar je nu kansen laat liggen. Met de quickscan krijg je in 48 uur een helder beeld van jouw groeipotentieel en een concreet plan om dat te benutten.
               </p>
               <ul className="space-y-3">
                 {[
@@ -121,7 +121,7 @@ export default function QuickscanPage() {
             </div>
 
             <div className="bg-[var(--color-cream)] p-10">
-              <h3 className="text-[var(--color-navy)] font-serif text-xl mb-8">Bestel jouw quickscan</h3>
+              <h3 className="text-[var(--color-navy)] font-serif text-xl mb-8">Start jouw groei vandaag</h3>
               <form className="space-y-6">
                 <div>
                   <label className="block text-[var(--color-navy)] text-xs tracking-widest uppercase mb-2">Naam</label>
