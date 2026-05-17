@@ -148,7 +148,7 @@ export default function VoorWiePage() {
           <div className="max-w-6xl mx-auto px-6">
             <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-6">Voor wie</p>
             <h1 className="text-white text-5xl md:text-6xl font-serif font-semibold max-w-3xl leading-tight mb-8">
-              Online marketing voor bedrijven in vastgoed, wonen en financiering
+              Voor bedrijven in vastgoed, wonen en financiering
             </h1>
             <p className="text-white/70 text-lg max-w-2xl leading-relaxed mb-10">
               Vastgoed Online Marketing helpt bedrijven in vastgoed, wonen en financiering om online beter zichtbaar te worden en meer kwalitatieve aanvragen te genereren. Van makelaars en hypotheekadviseurs tot projectontwikkelaars en vastgoedbeheerders.
