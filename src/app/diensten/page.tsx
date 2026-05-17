@@ -69,6 +69,19 @@ const services = [
       "Concrete aanbevelingen op basis van data",
     ],
   },
+  {
+    title: "Processen versnellen met AI",
+    subtitle: "Artificial Intelligence",
+    description:
+      "Wij helpen vastgoedbedrijven slimmer en sneller werken met behulp van Artificial Intelligence. AI neemt tijdrovende taken over, zodat jij je kunt focussen op wat écht belangrijk is.",
+    points: [
+      "Geautomatiseerde opvolging van leads",
+      "AI-gedreven contentcreatie voor jouw kanalen",
+      "Slimmere advertenties met automatische optimalisatie",
+      "Chatbots en virtuele assistenten voor je website",
+      "Procesanalyse: waar kan AI jou tijd besparen?",
+    ],
+  },
 ];
 
 export default function DienstenPage() {

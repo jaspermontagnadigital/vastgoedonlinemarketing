@@ -57,6 +57,16 @@ const services = [
     ),
   },
   {
+    title: "Processen versnellen met AI",
+    description:
+      "Wij helpen vastgoedbedrijven slimmer werken met Artificial Intelligence. Van geautomatiseerde opvolging tot snellere content, AI bespaart tijd en verhoogt resultaat.",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="w-8 h-8">
+        <path d="M12 2a4 4 0 0 1 4 4v1h1a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3v-6a3 3 0 0 1 3-3h1V6a4 4 0 0 1 4-4z"/><circle cx="12" cy="13" r="2"/><path d="M12 11v-2"/>
+      </svg>
+    ),
+  },
+  {
     title: "Live inzichten in de resultaten",
     description:
       "Realtime overzicht van je resultaten. Zo weet je precies waar je klanten vandaan komen en wat je marketing oplevert.",
