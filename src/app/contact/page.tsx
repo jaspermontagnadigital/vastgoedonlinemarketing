@@ -1,6 +1,13 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "Contact | Vastgoed Online Marketing",
+  description:
+    "Plan een gratis adviesgesprek en ontdek hoeveel meer klanten jij online kunt bereiken. Binnen 30 minuten weet je wat er mogelijk is voor jouw vastgoedbedrijf.",
+};
 
 export default function ContactPage() {
   return (

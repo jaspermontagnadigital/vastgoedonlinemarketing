@@ -1,6 +1,13 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "Quickscan | Vastgoed Online Marketing",
+  description:
+    "Ontdek binnen 48 uur waar jouw vastgoedbedrijf online kansen laat liggen. Persoonlijk rapport met 5 concrete groeikansen op maat. Nu tijdelijk voor 795,- in plaats van 1.395,-.",
+};
 
 const wins = [
   {

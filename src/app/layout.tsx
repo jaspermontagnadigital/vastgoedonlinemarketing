@@ -13,9 +13,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Vastgoed Online Marketing | SEO, SEA & Social Media voor Vastgoed",
+  title: "Vastgoed Online Marketing | Meer klanten voor makelaars & vastgoedbedrijven",
   description:
-    "Wij helpen vastgoedprofessionals groeien met gerichte online marketing. Specialisten in SEO, SEA, social media, conversie-optimalisatie en data-dashboarding.",
+    "Wij zorgen dat kopers, huurders en vastgoedeigenaren jou als eerste vinden online. Meer zichtbaarheid in Google, meer bereik op social media en meer klanten voor jouw vastgoedbedrijf in jouw regio.",
 };
 
 export default function RootLayout({

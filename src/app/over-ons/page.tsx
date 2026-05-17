@@ -1,7 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "Over ons | Vastgoed Online Marketing",
+  description:
+    "Wij richten ons volledig op de vastgoedmarkt. Geen generalist die vandaag een bakker en morgen een makelaar helpt. Leer ons kennen en ontdek wat we voor jouw bedrijf kunnen betekenen.",
+};
 
 const values = [
   {

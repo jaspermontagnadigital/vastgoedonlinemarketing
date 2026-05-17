@@ -1,7 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "Diensten | Vastgoed Online Marketing",
+  description:
+    "Beter gevonden worden in Google, meer klanten via social media en inzicht in wat werkt. Ontdek hoe wij makelaars en vastgoedbedrijven helpen groeien in hun regio.",
+};
 
 const services = [
   {
