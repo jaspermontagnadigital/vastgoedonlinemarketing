@@ -43,17 +43,23 @@ export default function QuickscanPage() {
         {/* Header */}
         <section className="bg-[var(--color-navy)] pt-40 pb-24">
           <div className="max-w-6xl mx-auto px-6">
-            <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-6">Tijdelijke actie</p>
-            <h1 className="text-white text-5xl md:text-6xl font-serif font-semibold max-w-3xl leading-tight mb-8">
-              Quickscan: ontdek jouw 5 grootste online kansen
-            </h1>
-            <div className="flex items-end gap-4 mb-6">
-              <span className="text-[var(--color-gold)] text-5xl font-serif font-bold">€795</span>
-              <span className="text-white/40 text-2xl line-through mb-1">€1.395</span>
+            <div className="inline-block bg-[var(--color-gold)] text-[var(--color-navy)] text-xs font-bold tracking-widest uppercase px-4 py-2 mb-8">
+              Tijdelijke actie — Bespaar €600
             </div>
-            <p className="text-white/70 text-lg max-w-xl leading-relaxed">
-              In 48 uur ontvang je een persoonlijke analyse van jouw online zichtbaarheid. Inclusief 5 concrete winsten die je direct kunt benutten.
+            <h1 className="text-white text-5xl md:text-6xl font-serif font-semibold max-w-3xl leading-tight mb-6">
+              Ontdek wat jouw vastgoedbedrijf online laat liggen
+            </h1>
+            <p className="text-white/70 text-lg max-w-xl leading-relaxed mb-8">
+              Binnen 48 uur weet je precies waar je klanten misloopt en hoe je dat oplost. Één extra opdracht dekt de investering ruimschoots.
             </p>
+            <div className="flex items-end gap-4">
+              <span className="text-[var(--color-gold)] text-5xl font-serif font-bold">€795</span>
+              <div className="mb-1">
+                <span className="text-white/40 text-2xl line-through block">€1.395</span>
+                <span className="text-white/50 text-xs">Normaalprijs</span>
+              </div>
+            </div>
+            <p className="text-white/40 text-sm mt-3">Nog maar een beperkt aantal plekken beschikbaar tegen deze prijs.</p>
           </div>
         </section>
         {/* Wat je krijgt */}
@@ -83,23 +89,27 @@ export default function QuickscanPage() {
         <section className="py-24 bg-white">
           <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
             <div>
-              <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-4">Tijdelijke actieprijs</p>
+              <div className="inline-block bg-[var(--color-gold)] text-[var(--color-navy)] text-xs font-bold tracking-widest uppercase px-3 py-1.5 mb-4">
+                Bespaar €600
+              </div>
               <h2 className="text-3xl md:text-4xl font-serif text-[var(--color-navy)] mb-4">
-                Ontvang jouw quickscan binnen 48 uur
+                Investering die zichzelf terugverdient
               </h2>
-              <div className="flex items-end gap-3 mb-6">
+              <div className="flex items-end gap-3 mb-2">
                 <span className="text-[var(--color-navy)] text-4xl font-serif font-bold">€795</span>
                 <span className="text-[var(--color-navy)]/30 text-xl line-through mb-1">€1.395</span>
               </div>
+              <p className="text-[var(--color-navy)]/40 text-sm mb-6">Minder dan €2,20 per dag</p>
               <p className="text-[var(--color-navy)]/60 leading-relaxed mb-6">
-                Vul je gegevens in en wij gaan direct aan de slag. Binnen 48 uur ontvang je een persoonlijke analyse met 5 concrete kansen voor jouw vastgoedbedrijf.
+                Eén gemiste opdracht kost je al snel meer dan deze investering. Met de quickscan weet je precies waar je nu klanten misloopt en hoe je dat direct oplost.
               </p>
               <ul className="space-y-3">
                 {[
                   "Persoonlijk rapport op maat",
                   "Binnen 48 uur in je inbox",
-                  "Inclusief concrete aanbevelingen",
-                  "Nu tijdelijk €600 korting",
+                  "5 concrete kansen uitgewerkt",
+                  "Inclusief concurrentieanalyse in jouw regio",
+                  "Één extra opdracht dekt de investering",
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-3 text-[var(--color-navy)]/70 text-sm">
                     <span className="text-[var(--color-gold)]">✓</span>
@@ -107,6 +117,7 @@ export default function QuickscanPage() {
                   </li>
                 ))}
               </ul>
+              <p className="text-[var(--color-navy)]/40 text-xs mt-6">Nog maar een beperkt aantal plekken beschikbaar tegen actieprijs.</p>
             </div>
 
             <div className="bg-[var(--color-cream)] p-10">
@@ -148,7 +159,7 @@ export default function QuickscanPage() {
                   type="submit"
                   className="w-full py-4 bg-[var(--color-navy)] text-white font-semibold tracking-widest uppercase text-sm hover:bg-[var(--color-gold)] hover:text-[var(--color-navy)] transition-colors duration-200"
                 >
-                  Stuur mij de gratis scan
+                  Bestel nu voor €795
                 </button>
               </form>
             </div>
