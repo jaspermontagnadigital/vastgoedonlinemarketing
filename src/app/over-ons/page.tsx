@@ -38,7 +38,7 @@ export default function OverOnsPage() {
         <section className="bg-[var(--color-navy)] pt-40 pb-24">
           <div className="max-w-6xl mx-auto px-6">
             <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-6">Over ons</p>
-            <h1 className="text-white text-5xl md:text-6xl font-serif font-semibold max-w-2xl leading-tight">
+            <h1 className="text-white text-5xl md:text-6xl font-serif font-semibold max-w-3xl leading-tight">
               De vastgoedmarketeer die jouw sector begrijpt
             </h1>
           </div>
