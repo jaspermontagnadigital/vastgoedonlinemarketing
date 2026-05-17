@@ -165,32 +165,32 @@ export default function VoorWiePage() {
                 <a
                   key={d.id}
                   href={`#${d.id}`}
-                  className="group bg-white p-8 flex flex-col gap-6 transition-all duration-300 hover:shadow-xl border-t-2 border-transparent hover:border-[var(--color-gold)]"
+                  className="group bg-[var(--color-navy)] p-8 flex flex-col gap-6 transition-all duration-300 hover:shadow-xl"
                 >
-                  <div className="text-[var(--color-navy)] group-hover:text-[var(--color-gold)] transition-colors">
+                  <div className="text-[var(--color-gold)] transition-colors">
                     {d.icon}
                   </div>
                   <div>
-                    <h3 className="font-serif text-xl mb-2 text-[var(--color-navy)]">{d.titel}</h3>
-                    <p className="text-sm leading-relaxed text-[var(--color-navy)]/60">{d.subtitel}</p>
+                    <h3 className="font-serif text-xl mb-2 text-white">{d.titel}</h3>
+                    <p className="text-sm leading-relaxed text-white">{d.subtitel}</p>
                   </div>
-                  <span className="text-xs tracking-widest uppercase font-semibold mt-auto text-[var(--color-navy)] group-hover:text-[var(--color-gold)] transition-colors">
+                  <span className="text-xs tracking-widest uppercase font-semibold mt-auto text-[var(--color-gold)]">
                     Lees meer ↓
                   </span>
                 </a>
               ))}
               {/* 6e blok: Ook interessant voor */}
-              <div className="group bg-white p-8 flex flex-col gap-6 border-t-2 border-transparent">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.2} className="w-8 h-8 text-[var(--color-navy)]">
+              <div className="group bg-[var(--color-navy)] p-8 flex flex-col gap-6">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.2} className="w-8 h-8 text-[var(--color-gold)]">
                   <circle cx="12" cy="12" r="10" /><path d="M12 8v4M12 16h.01" />
                 </svg>
                 <div>
-                  <h3 className="font-serif text-xl mb-4 text-[var(--color-navy)]">Ook interessant voor</h3>
-                  <p className="text-sm leading-relaxed text-[var(--color-navy)]/60">
+                  <h3 className="font-serif text-xl mb-4 text-white">Ook interessant voor</h3>
+                  <p className="text-sm leading-relaxed text-white">
                     {ookInteressant.join(" · ")}
                   </p>
                 </div>
-                <Link href="/contact" className="text-xs tracking-widest uppercase font-semibold mt-auto text-[var(--color-navy)] hover:text-[var(--color-gold)] transition-colors">
+                <Link href="/contact" className="text-xs tracking-widest uppercase font-semibold mt-auto text-[var(--color-gold)] hover:text-[var(--color-gold-light)] transition-colors">
                   Denk met ons mee ↓
                 </Link>
               </div>
