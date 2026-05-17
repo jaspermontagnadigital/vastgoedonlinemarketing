@@ -146,50 +146,28 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Waarom wij */}
-        <section className="py-28 bg-white">
-          <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-            <div>
-              <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-4">Waarom wij</p>
-              <h2 className="text-4xl md:text-5xl font-serif text-[var(--color-navy)] mb-8">
-                Volledige focus op vastgoed, met ervaring uit meerdere sectoren
+        {/* Voor wie */}
+        <section className="py-20 bg-white">
+          <div className="max-w-6xl mx-auto px-6">
+            <div className="mb-12">
+              <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-4">Voor wie</p>
+              <h2 className="text-4xl md:text-5xl font-serif text-[var(--color-navy)] max-w-xl">
+                Herken jij jouw bedrijf?
               </h2>
-              <p className="text-[var(--color-navy)]/60 leading-relaxed mb-6">
-                Omdat wij ons volledig richten op de vastgoedmarkt, kunnen wij gerichtere en effectievere online marketingstrategieën toepassen. Geen generieke aanpak, maar werk dat past bij jouw sector.
-              </p>
-              <p className="text-[var(--color-navy)]/60 leading-relaxed mb-10">
-                Onze ervaring in andere branches brengen wij mee. Wat werkt in andere markten passen wij slim toe op vastgoed. Zo profiteer jij van bewezen inzichten die anderen in de vastgoedsector nog niet hebben.
-              </p>
-              <Link
-                href="/over-ons"
-                className="inline-block px-8 py-4 border-2 border-[var(--color-navy)] text-[var(--color-navy)] font-semibold tracking-widest uppercase text-sm hover:bg-[var(--color-navy)] hover:text-white transition-colors duration-200"
-              >
-                Over ons
-              </Link>
             </div>
-            <div className="flex flex-col gap-4">
-              <div className="relative h-64 overflow-hidden">
-                <Image
-                  src="https://images.unsplash.com/photo-1623005329287-0848374575d3?w=800&q=80&fit=crop"
-                  alt="Luxe Nederlandse villa"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="grid grid-cols-2 gap-4">
-                {[
-                  { title: "Regionaal sterk", body: "Wij zorgen dat jij dé bekendste naam bent in jouw regio." },
-                  { title: "Datagedreven", body: "Elke beslissing onderbouwd met cijfers en inzichten." },
-                  { title: "Transparant", body: "Volledige inzage in resultaten via realtime dashboards." },
-                  { title: "Resultaatgericht", body: "Wij meten succes in leads, verkopen en omzet." },
-                ].map((item) => (
-                  <div key={item.title} className="bg-[var(--color-cream)] p-6">
-                    <h4 className="text-[var(--color-navy)] font-serif text-lg mb-2">{item.title}</h4>
-                    <p className="text-[var(--color-navy)]/60 text-sm leading-relaxed">{item.body}</p>
-                  </div>
-                ))}
-              </div>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-10">
+              {["Makelaars", "Hypotheekadviseurs", "Projectontwikkelaars", "Vastgoedbeheerders", "Verhuurorganisaties", "En meer..."].map((item) => (
+                <div key={item} className="bg-[var(--color-navy)] px-4 py-5 text-center">
+                  <span className="text-white text-sm font-serif">{item}</span>
+                </div>
+              ))}
             </div>
+            <Link
+              href="/voor-wie"
+              className="inline-block px-8 py-4 border-2 border-[var(--color-navy)] text-[var(--color-navy)] font-semibold tracking-widest uppercase text-sm hover:bg-[var(--color-navy)] hover:text-white transition-colors duration-200"
+            >
+              Bekijk alle doelgroepen
+            </Link>
           </div>
         </section>
 
@@ -238,19 +216,65 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Waarom wij */}
+        <section className="py-28 bg-white">
+          <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <div>
+              <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-4">Waarom wij</p>
+              <h2 className="text-4xl md:text-5xl font-serif text-[var(--color-navy)] mb-8">
+                Volledige focus op vastgoed, met ervaring uit meerdere sectoren
+              </h2>
+              <p className="text-[var(--color-navy)]/60 leading-relaxed mb-6">
+                Omdat wij ons volledig richten op de vastgoedmarkt, kunnen wij gerichtere en effectievere online marketingstrategieën toepassen. Geen generieke aanpak, maar werk dat past bij jouw sector.
+              </p>
+              <p className="text-[var(--color-navy)]/60 leading-relaxed mb-10">
+                Onze ervaring in andere branches brengen wij mee. Wat werkt in andere markten passen wij slim toe op vastgoed. Zo profiteer jij van bewezen inzichten die anderen in de vastgoedsector nog niet hebben.
+              </p>
+              <Link
+                href="/over-ons"
+                className="inline-block px-8 py-4 border-2 border-[var(--color-navy)] text-[var(--color-navy)] font-semibold tracking-widest uppercase text-sm hover:bg-[var(--color-navy)] hover:text-white transition-colors duration-200"
+              >
+                Over ons
+              </Link>
+            </div>
+            <div className="flex flex-col gap-4">
+              <div className="relative h-64 overflow-hidden">
+                <Image
+                  src="https://images.unsplash.com/photo-1623005329287-0848374575d3?w=800&q=80&fit=crop"
+                  alt="Luxe Nederlandse villa"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                {[
+                  { title: "Regionaal sterk", body: "Wij zorgen dat jij dé bekendste naam bent in jouw regio." },
+                  { title: "Datagedreven", body: "Elke beslissing onderbouwd met cijfers en inzichten." },
+                  { title: "Transparant", body: "Volledige inzage in resultaten via realtime dashboards." },
+                  { title: "Resultaatgericht", body: "Wij meten succes in leads, verkopen en omzet." },
+                ].map((item) => (
+                  <div key={item.title} className="bg-[var(--color-cream)] p-6">
+                    <h4 className="text-[var(--color-navy)] font-serif text-lg mb-2">{item.title}</h4>
+                    <p className="text-[var(--color-navy)]/60 text-sm leading-relaxed">{item.body}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* CTA */}
-        <section className="bg-[var(--color-navy)] py-28">
+        <section className="bg-[var(--color-navy)] py-16">
           <div className="max-w-3xl mx-auto px-6 text-center">
-            <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-6">Klaar om te groeien?</p>
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-8">
+            <h2 className="text-3xl md:text-4xl font-serif text-white mb-6">
               Plan een gratis adviesgesprek
             </h2>
-            <p className="text-white text-lg mb-12 leading-relaxed">
+            <p className="text-white mb-8 leading-relaxed">
               In 30 minuten bespreken we jouw situatie en kansen online. Daarna ontvang je een vrijblijvend voorstel op maat, volledig meetbaar.
             </p>
             <Link
               href="/contact"
-              className="inline-block px-10 py-5 bg-[var(--color-gold)] text-[var(--color-navy)] font-semibold tracking-widest uppercase text-sm hover:bg-[var(--color-gold-light)] transition-colors duration-200"
+              className="inline-block px-10 py-4 bg-[var(--color-gold)] text-[var(--color-navy)] font-semibold tracking-widest uppercase text-sm hover:bg-[var(--color-gold-light)] transition-colors duration-200"
             >
               Vrijblijvend gesprek inplannen
             </Link>
