@@ -185,6 +185,26 @@ export default function VoorWiePage() {
                   </span>
                 </a>
               ))}
+              {/* 6e blok: Ook interessant voor */}
+              <div className="bg-[var(--color-navy)] p-8 flex flex-col gap-6">
+                <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase">Ook interessant voor</p>
+                <div>
+                  <h3 className="font-serif text-xl mb-2 text-white">Werk je in of rondom vastgoed?</h3>
+                  <p className="text-sm leading-relaxed text-white/60 mb-4">
+                    We werken ook voor andere partijen rondom vastgoed, wonen en financiering. Staat jouw type bedrijf er niet tussen? Dan denken we graag mee.
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {ookInteressant.map((item) => (
+                      <span key={item} className="px-3 py-1 border border-white/20 text-white/60 text-xs">
+                        {item}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <Link href="/contact" className="text-xs tracking-widest uppercase font-semibold text-[var(--color-gold)] mt-auto hover:text-[var(--color-gold-light)] transition-colors">
+                  Denk met ons mee →
+                </Link>
+              </div>
             </div>
           </div>
         </section>
@@ -221,28 +241,6 @@ export default function VoorWiePage() {
           </section>
         ))}
 
-        {/* Ook interessant voor */}
-        <section className="py-24 bg-[var(--color-navy)]">
-          <div className="max-w-6xl mx-auto px-6">
-            <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-4">Ook interessant voor</p>
-            <h2 className="text-3xl md:text-4xl font-serif text-white mb-4">
-              Werk je in of rondom vastgoed?
-            </h2>
-            <p className="text-white/60 max-w-xl leading-relaxed mb-12">
-              We werken ook voor andere partijen rondom vastgoed, wonen en financiering. Staat jouw type bedrijf er niet tussen? Dan denken we graag mee.
-            </p>
-            <div className="flex flex-wrap gap-3 mb-12">
-              {ookInteressant.map((item) => (
-                <span key={item} className="px-5 py-2.5 border border-white/20 text-white/70 text-sm hover:border-[var(--color-gold)] hover:text-[var(--color-gold)] transition-colors cursor-default">
-                  {item}
-                </span>
-              ))}
-            </div>
-            <Link href="/contact" className="inline-block px-8 py-4 bg-[var(--color-gold)] text-[var(--color-navy)] font-semibold tracking-widest uppercase text-sm hover:bg-[var(--color-gold-light)] transition-colors">
-              Denk met ons mee
-            </Link>
-          </div>
-        </section>
 
         {/* Afsluitende CTA */}
         <section className="py-24 bg-[var(--color-cream)]">
