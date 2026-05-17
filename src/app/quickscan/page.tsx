@@ -85,11 +85,9 @@ export default function QuickscanPage() {
                     <span className="text-[var(--color-gold)] font-serif text-3xl font-bold">{w.number}</span>
                   </div>
                   <div className="p-8 md:p-10">
-                  <div>
                     <h3 className="text-[var(--color-navy)] font-serif text-xl mb-3">{w.title}</h3>
                     <p className="text-[var(--color-navy)]/60 text-sm leading-relaxed">{w.description}</p>
                   </div>
-                </div>
 
               ))}
             </div>
