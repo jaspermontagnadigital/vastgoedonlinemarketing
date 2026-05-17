@@ -85,10 +85,7 @@ export default function Home() {
           />
           <div className="absolute inset-0 bg-[var(--color-navy)]/85" />
           <div className="relative max-w-6xl mx-auto px-6 pt-32 pb-24">
-            <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-8">
-              Online marketing voor vastgoed in jouw regio
-            </p>
-            <h1 className="text-white text-5xl md:text-7xl font-serif font-semibold leading-tight mb-8 max-w-3xl">
+<h1 className="text-white text-5xl md:text-7xl font-serif font-semibold leading-tight mb-8 max-w-3xl">
               De online marketing<br />specialist voor<br />
               <span className="text-[var(--color-gold)]">makelaars & vastgoed.</span>
             </h1>
