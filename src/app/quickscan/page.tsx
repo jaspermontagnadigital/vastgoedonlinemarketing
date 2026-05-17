@@ -53,7 +53,7 @@ export default function QuickscanPage() {
             <div className="inline-block bg-[var(--color-gold)] text-[var(--color-navy)] text-xs font-bold tracking-widest uppercase px-4 py-2 mb-8">
               Tijdelijke actie
             </div>
-            <h1 className="text-white text-5xl md:text-6xl font-serif font-semibold max-w-3xl leading-tight mb-6">
+            <h1 className="text-white text-3xl md:text-6xl font-serif font-semibold max-w-3xl leading-tight mb-6">
               Ontdek wat jouw vastgoedbedrijf online laat liggen
             </h1>
             <p className="text-white text-lg max-w-xl leading-relaxed mb-8">

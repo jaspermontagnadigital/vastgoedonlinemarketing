@@ -113,7 +113,7 @@ export default function DienstenPage() {
         <section className="bg-[var(--color-navy)] pt-40 pb-24">
           <div className="max-w-6xl mx-auto px-6">
             <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-6">Onze diensten</p>
-            <h1 className="text-white text-5xl md:text-6xl font-serif font-semibold max-w-2xl leading-tight">
+            <h1 className="text-white text-3xl md:text-6xl font-serif font-semibold max-w-2xl leading-tight">
               Meer klanten voor jouw vastgoedbedrijf
             </h1>
           </div>

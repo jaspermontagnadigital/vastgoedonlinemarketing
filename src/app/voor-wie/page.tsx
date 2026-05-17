@@ -148,7 +148,7 @@ export default function VoorWiePage() {
         <section className="bg-[var(--color-navy)] pt-40 pb-24">
           <div className="max-w-6xl mx-auto px-6">
             <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-6">Voor wie</p>
-            <h1 className="text-white text-5xl md:text-6xl font-serif font-semibold max-w-3xl leading-tight mb-8">
+            <h1 className="text-white text-3xl md:text-6xl font-serif font-semibold max-w-3xl leading-tight mb-8">
               Voor bedrijven in vastgoed, wonen en financiering
             </h1>
           </div>
