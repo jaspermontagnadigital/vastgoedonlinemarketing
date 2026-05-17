@@ -81,7 +81,7 @@ export default function OverOnsPage() {
                   <div className="text-[var(--color-navy)]/50 text-xs tracking-widest uppercase mt-1">Specialismes</div>
                 </div>
                 <div>
-                  <div className="text-[var(--color-navy)] text-3xl font-serif font-bold">Benelux</div>
+                  <div className="text-[var(--color-navy)] text-3xl font-serif font-bold">NL</div>
                   <div className="text-[var(--color-navy)]/50 text-xs tracking-widest uppercase mt-1">Actief</div>
                 </div>
               </div>
