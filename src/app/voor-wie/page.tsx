@@ -199,21 +199,6 @@ export default function VoorWiePage() {
           </div>
         </section>
 
-        {/* Foto tussenstuk */}
-        <section className="py-20 bg-[var(--color-cream)]">
-          <div className="max-w-6xl mx-auto px-6 flex justify-center">
-            <div className="p-3 border-2 border-[var(--color-gold)] inline-block">
-              <Image
-                src="https://images.unsplash.com/photo-1731941407490-d0bb29e1ea95?w=1200&q=80&fit=crop"
-                alt="Vastgoed Nederland"
-                width={800}
-                height={500}
-                className="object-cover block"
-              />
-            </div>
-          </div>
-        </section>
-
         {/* Uitgewerkte doelgroepen */}
         {doelgroepen.map((d, i) => (
           <section
