@@ -165,32 +165,34 @@ export default function VoorWiePage() {
                 <a
                   key={d.id}
                   href={`#${d.id}`}
-                  className="group bg-[var(--color-navy)] p-8 flex flex-col gap-6 transition-all duration-300 hover:shadow-xl"
+                  className="group bg-white p-8 flex flex-col gap-5 transition-all duration-300 hover:shadow-lg border-t-2 border-[var(--color-gold)]"
                 >
-                  <div className="text-[var(--color-gold)] transition-colors">
+                  <div className="text-[var(--color-navy)] group-hover:text-[var(--color-gold)] transition-colors">
                     {d.icon}
                   </div>
                   <div>
-                    <h3 className="font-serif text-xl mb-2 text-white">{d.titel}</h3>
-                    <p className="text-sm leading-relaxed text-white">{d.subtitel}</p>
+                    <h3 className="font-serif text-xl mb-2 text-[var(--color-navy)]">{d.titel}</h3>
+                    <p className="text-sm leading-relaxed text-[var(--color-navy)]/60 mb-3">{d.subtitel}</p>
+                    <p className="text-sm leading-relaxed text-[var(--color-navy)]/50">{d.intro}</p>
                   </div>
-                  <span className="text-xs tracking-widest uppercase font-semibold mt-auto text-[var(--color-gold)]">
+                  <span className="text-xs tracking-widest uppercase font-semibold mt-auto text-[var(--color-navy)] group-hover:text-[var(--color-gold)] transition-colors">
                     Lees meer ↓
                   </span>
                 </a>
               ))}
               {/* 6e blok: Ook interessant voor */}
-              <div className="group bg-[var(--color-navy)] p-8 flex flex-col gap-6">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.2} className="w-8 h-8 text-[var(--color-gold)]">
+              <div className="group bg-white p-8 flex flex-col gap-5 border-t-2 border-[var(--color-gold)]">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.2} className="w-8 h-8 text-[var(--color-navy)]">
                   <circle cx="12" cy="12" r="10" /><path d="M12 8v4M12 16h.01" />
                 </svg>
                 <div>
-                  <h3 className="font-serif text-xl mb-4 text-white">Ook interessant voor</h3>
-                  <p className="text-sm leading-relaxed text-white">
+                  <h3 className="font-serif text-xl mb-2 text-[var(--color-navy)]">Ook interessant voor</h3>
+                  <p className="text-sm leading-relaxed text-[var(--color-navy)]/60 mb-3">Werk je in of rondom vastgoed maar staat jouw type bedrijf er niet tussen? Dan denken we graag mee.</p>
+                  <p className="text-sm leading-relaxed text-[var(--color-navy)]/50">
                     {ookInteressant.join(" · ")}
                   </p>
                 </div>
-                <Link href="/contact" className="text-xs tracking-widest uppercase font-semibold mt-auto text-[var(--color-gold)] hover:text-[var(--color-gold-light)] transition-colors">
+                <Link href="/contact" className="text-xs tracking-widest uppercase font-semibold mt-auto text-[var(--color-navy)] hover:text-[var(--color-gold)] transition-colors">
                   Denk met ons mee ↓
                 </Link>
               </div>
