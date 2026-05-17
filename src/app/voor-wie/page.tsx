@@ -187,22 +187,17 @@ export default function VoorWiePage() {
               ))}
               {/* 6e blok: Ook interessant voor */}
               <div className="bg-[var(--color-navy)] p-8 flex flex-col gap-6">
-                <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase">Ook interessant voor</p>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.2} className="w-8 h-8 text-[var(--color-gold)]">
+                  <circle cx="12" cy="12" r="10" /><path d="M12 8v4M12 16h.01" />
+                </svg>
                 <div>
-                  <h3 className="font-serif text-xl mb-2 text-white">Werk je in of rondom vastgoed?</h3>
-                  <p className="text-sm leading-relaxed text-white mb-4">
-                    We werken ook voor andere partijen rondom vastgoed, wonen en financiering. Staat jouw type bedrijf er niet tussen? Dan denken we graag mee.
+                  <h3 className="font-serif text-xl mb-2 text-white">Ook interessant voor</h3>
+                  <p className="text-sm leading-relaxed text-white">
+                    Werk je in of rondom vastgoed maar staat jouw type bedrijf er niet tussen? Dan denken we graag mee.
                   </p>
-                  <div className="flex flex-wrap gap-2">
-                    {ookInteressant.map((item) => (
-                      <span key={item} className="px-3 py-1 border border-white/20 text-white text-xs">
-                        {item}
-                      </span>
-                    ))}
-                  </div>
                 </div>
                 <Link href="/contact" className="text-xs tracking-widest uppercase font-semibold text-[var(--color-gold)] mt-auto hover:text-[var(--color-gold-light)] transition-colors">
-                  Denk met ons mee →
+                  Denk met ons mee ↓
                 </Link>
               </div>
             </div>
