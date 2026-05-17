@@ -197,19 +197,27 @@ export default function Home() {
         <section className="py-24 bg-[var(--color-navy)]">
           <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-4">Tijdelijke actie · €795 i.p.v. €1.395</p>
-              <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">
-                Ontdek jouw 5 grootste online kansen
+              <div className="inline-block bg-[var(--color-gold)] text-[var(--color-navy)] text-xs font-bold tracking-widest uppercase px-4 py-2 mb-6">
+                Tijdelijke actie — Bespaar 600,-
+              </div>
+              <h2 className="text-4xl md:text-5xl font-serif text-white mb-4">
+                Weet binnen 48 uur waar jouw groei ligt
               </h2>
-              <p className="text-white/70 leading-relaxed mb-8">
-                Wij analyseren jouw online zichtbaarheid en leveren binnen 48 uur een persoonlijk rapport met 5 concrete winsten voor jouw vastgoedbedrijf. Gratis, zonder verplichtingen.
+              <p className="text-white/70 leading-relaxed mb-4">
+                Wij scannen jouw volledige online aanwezigheid en leveren 5 concrete groeikansen op maat. Eén extra opdracht dekt de investering ruimschoots.
               </p>
+              <div className="flex items-end gap-3 mb-8">
+                <span className="text-[var(--color-gold)] text-4xl font-serif font-bold">795,-</span>
+                <span className="text-white/30 text-xl line-through mb-1">1.395,-</span>
+                <span className="text-white/40 text-sm mb-1">normaal</span>
+              </div>
               <Link
                 href="/quickscan"
                 className="inline-block px-8 py-4 bg-[var(--color-gold)] text-[var(--color-navy)] font-semibold tracking-widest uppercase text-sm hover:bg-[var(--color-gold-light)] transition-colors duration-200"
               >
-                Bestel jouw quickscan
+                Bekijk mijn groeikansen
               </Link>
+              <p className="text-white/30 text-xs mt-4">Nog beperkt aantal plekken beschikbaar tegen actieprijs.</p>
             </div>
             <div className="grid grid-cols-1 gap-4">
               {[
