@@ -28,7 +28,7 @@ export default function PrivacyPage() {
               <div>
                 <p className="text-sm text-[var(--color-navy)]/40 mb-8">Laatst bijgewerkt: mei 2026 — dit is een conceptversie</p>
                 <h2 className="text-[var(--color-navy)] font-serif text-2xl mb-4">1. Wie zijn wij?</h2>
-                <p>Vastgoed Online Marketing is een online marketingbureau gespecialiseerd in de vastgoedsector. Wij zijn gevestigd in Nederland en actief voor opdrachtgevers in vastgoed, wonen en financiering.</p>
+                <p>Vastgoed Online Marketing is een online marketingbureau gespecialiseerd in de vastgoedsector. Wij zijn gevestigd in Nederland (KVK: 91875684) en actief voor opdrachtgevers in vastgoed, wonen en financiering.</p>
                 <p className="mt-3">Voor vragen over deze privacyverklaring kun je contact opnemen via: <a href="mailto:info@vastgoedonlinemarketing.nl" className="text-[var(--color-gold)] underline">info@vastgoedonlinemarketing.nl</a></p>
               </div>
 

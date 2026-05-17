@@ -11,7 +11,7 @@ const articles = [
   {
     title: "1. Definities",
     content: [
-      "Opdrachtnemer: Vastgoed Online Marketing, gevestigd in Nederland.",
+      "Opdrachtnemer: Vastgoed Online Marketing, gevestigd in Nederland (KVK: 91875684).",
       "Opdrachtgever: de natuurlijke persoon of rechtspersoon die een overeenkomst aangaat met Opdrachtnemer.",
       "Diensten: alle werkzaamheden die Opdrachtnemer verricht voor Opdrachtgever, waaronder online marketing, websiteontwikkeling, content, advisering en rapportage.",
       "Overeenkomst: de schriftelijke of digitale afspraak tussen Opdrachtnemer en Opdrachtgever.",
