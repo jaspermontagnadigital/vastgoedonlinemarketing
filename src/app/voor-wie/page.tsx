@@ -156,14 +156,6 @@ export default function VoorWiePage() {
             <p className="text-white/60 max-w-2xl leading-relaxed mb-10">
               We kijken niet alleen naar meer bezoekers, maar vooral naar de juiste doelgroep, de juiste boodschap en aanvragen die waardevol zijn voor jouw bedrijf. Praktisch, meetbaar en gericht op groei.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact" className="px-8 py-4 bg-[var(--color-gold)] text-[var(--color-navy)] font-semibold tracking-widest uppercase text-sm hover:bg-[var(--color-gold-light)] transition-colors text-center">
-                Plan een gratis adviesgesprek
-              </Link>
-              <Link href="/quickscan" className="px-8 py-4 border border-white/20 text-white font-semibold tracking-widest uppercase text-sm hover:border-[var(--color-gold)] hover:text-[var(--color-gold)] transition-colors text-center">
-                Vraag de quickscan aan
-              </Link>
-            </div>
           </div>
         </section>
 
