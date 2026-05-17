@@ -171,9 +171,8 @@ export default function VoorWiePage() {
                     {d.icon}
                   </div>
                   <div>
-                    <h3 className="font-serif text-xl mb-2 text-[var(--color-navy)]">{d.titel}</h3>
-                    <p className="text-sm leading-relaxed text-[var(--color-navy)]/60 mb-3">{d.subtitel}</p>
-                    <p className="text-sm leading-relaxed text-[var(--color-navy)]/50">{d.intro}</p>
+                    <h3 className="font-serif text-xl mb-3 text-[var(--color-navy)]">{d.titel}</h3>
+                    <p className="text-sm leading-relaxed text-[var(--color-navy)]/60">{d.intro}</p>
                   </div>
                   <span className="text-xs tracking-widest uppercase font-semibold mt-auto text-[var(--color-navy)] group-hover:text-[var(--color-gold)] transition-colors">
                     Lees meer ↓
@@ -186,9 +185,8 @@ export default function VoorWiePage() {
                   <circle cx="12" cy="12" r="10" /><path d="M12 8v4M12 16h.01" />
                 </svg>
                 <div>
-                  <h3 className="font-serif text-xl mb-2 text-[var(--color-navy)]">Ook interessant voor</h3>
-                  <p className="text-sm leading-relaxed text-[var(--color-navy)]/60 mb-3">Werk je in of rondom vastgoed maar staat jouw type bedrijf er niet tussen? Dan denken we graag mee.</p>
-                  <p className="text-sm leading-relaxed text-[var(--color-navy)]/50">
+                  <h3 className="font-serif text-xl mb-3 text-[var(--color-navy)]">Ook interessant voor</h3>
+                  <p className="text-sm leading-relaxed text-[var(--color-navy)]/60">
                     {ookInteressant.join(" · ")}
                   </p>
                 </div>
