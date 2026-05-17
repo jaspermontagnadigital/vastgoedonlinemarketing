@@ -30,10 +30,10 @@ export default function ContactPage() {
             {/* Info */}
             <div>
               <h2 className="text-2xl font-serif text-[var(--color-navy)] mb-6">
-                Laten we kennismaken
+                Plan een gratis adviesgesprek
               </h2>
               <p className="text-[var(--color-navy)]/60 leading-relaxed mb-10">
-                Plan een gratis adviesgesprek. In 30 minuten bespreken we jouw situatie en kansen online. Daarna ontvang je een vrijblijvend voorstel op maat, volledig meetbaar.
+                In 30 minuten bespreken we jouw situatie en kansen online. Daarna ontvang je een vrijblijvend voorstel op maat, volledig meetbaar.
               </p>
 
               <div className="space-y-6">
