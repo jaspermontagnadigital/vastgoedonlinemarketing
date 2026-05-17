@@ -56,17 +56,17 @@ export default function QuickscanPage() {
             <h1 className="text-white text-5xl md:text-6xl font-serif font-semibold max-w-3xl leading-tight mb-6">
               Ontdek wat jouw vastgoedbedrijf online laat liggen
             </h1>
-            <p className="text-white/70 text-lg max-w-xl leading-relaxed mb-8">
+            <p className="text-white text-lg max-w-xl leading-relaxed mb-8">
               Binnen een week weet je precies waar je klanten misloopt en hoe je dat oplost. Één extra opdracht dekt de investering ruimschoots.
             </p>
             <div className="flex items-end gap-4">
               <span className="text-[var(--color-gold)] text-5xl font-serif font-bold">795,-</span>
               <div className="mb-1">
-                <span className="text-white/40 text-2xl line-through block">1.395,-</span>
-                <span className="text-white/50 text-xs">Normaalprijs</span>
+                <span className="text-white text-2xl line-through block">1.395,-</span>
+                <span className="text-white text-xs">Normaalprijs</span>
               </div>
             </div>
-            <p className="text-white/40 text-sm mt-3">Nog maar een beperkt aantal plekken beschikbaar tegen deze prijs.</p>
+            <p className="text-white text-sm mt-3">Nog maar een beperkt aantal plekken beschikbaar tegen deze prijs.</p>
           </div>
         </section>
         {/* Wat je krijgt */}

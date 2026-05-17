@@ -124,7 +124,7 @@ export default function OverOnsPage() {
         <section className="bg-[var(--color-navy)] py-24">
           <div className="max-w-3xl mx-auto px-6 text-center">
             <h2 className="text-4xl font-serif text-white mb-6">Maak kennis met ons team</h2>
-            <p className="text-white/60 mb-10 leading-relaxed">
+            <p className="text-white mb-10 leading-relaxed">
               Plan een vrijblijvend gesprek en ontdek hoe wij jouw vastgoedbedrijf kunnen laten groeien.
             </p>
             <Link

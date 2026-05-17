@@ -176,7 +176,7 @@ export default function VoorWiePage() {
                     <h3 className={`font-serif text-xl mb-2 ${i === 0 ? "text-white" : "text-[var(--color-navy)]"}`}>
                       {d.titel}
                     </h3>
-                    <p className={`text-sm leading-relaxed ${i === 0 ? "text-white/60" : "text-[var(--color-navy)]/60"}`}>
+                    <p className={`text-sm leading-relaxed ${i === 0 ? "text-white" : "text-[var(--color-navy)]/60"}`}>
                       {d.subtitel}
                     </p>
                   </div>
@@ -190,12 +190,12 @@ export default function VoorWiePage() {
                 <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase">Ook interessant voor</p>
                 <div>
                   <h3 className="font-serif text-xl mb-2 text-white">Werk je in of rondom vastgoed?</h3>
-                  <p className="text-sm leading-relaxed text-white/60 mb-4">
+                  <p className="text-sm leading-relaxed text-white mb-4">
                     We werken ook voor andere partijen rondom vastgoed, wonen en financiering. Staat jouw type bedrijf er niet tussen? Dan denken we graag mee.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {ookInteressant.map((item) => (
-                      <span key={item} className="px-3 py-1 border border-white/20 text-white/60 text-xs">
+                      <span key={item} className="px-3 py-1 border border-white/20 text-white text-xs">
                         {item}
                       </span>
                     ))}
@@ -248,7 +248,7 @@ export default function VoorWiePage() {
             <div className="bg-[var(--color-navy)] p-10">
               <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-4">Gratis</p>
               <h3 className="text-white font-serif text-2xl mb-4">Plan een gratis adviesgesprek</h3>
-              <p className="text-white/60 text-sm leading-relaxed mb-8">
+              <p className="text-white text-sm leading-relaxed mb-8">
                 In dit gesprek kijken we samen naar je bedrijf, doelgroep en online kansen. Je krijgt direct een eerste beeld van waar je kunt verbeteren.
               </p>
               <Link href="/contact" className="inline-block px-8 py-4 bg-[var(--color-gold)] text-[var(--color-navy)] font-semibold tracking-widest uppercase text-sm hover:bg-[var(--color-gold-light)] transition-colors">

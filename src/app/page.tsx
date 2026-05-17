@@ -92,7 +92,7 @@ export default function Home() {
               De online marketing<br />specialist voor<br />
               <span className="text-[var(--color-gold)]">makelaars & vastgoed.</span>
             </h1>
-            <p className="text-white/85 text-lg md:text-xl leading-relaxed max-w-2xl mb-12">
+            <p className="text-white text-lg md:text-xl leading-relaxed max-w-2xl mb-12">
               Wij zorgen dat kopers, huurders en vastgoedeigenaren jou als eerste vinden én blijven zien, van Google tot LinkedIn, Instagram en Funda.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -203,13 +203,13 @@ export default function Home() {
               <h2 className="text-4xl md:text-5xl font-serif text-white mb-4">
                 Weet binnen een week waar jouw groei ligt
               </h2>
-              <p className="text-white/70 leading-relaxed mb-4">
+              <p className="text-white leading-relaxed mb-4">
                 Wij scannen jouw volledige online aanwezigheid en leveren 5 concrete groeikansen op maat. Eén extra opdracht dekt de investering ruimschoots.
               </p>
               <div className="flex items-end gap-3 mb-8">
                 <span className="text-[var(--color-gold)] text-4xl font-serif font-bold">795,-</span>
-                <span className="text-white/30 text-xl line-through mb-1">1.395,-</span>
-                <span className="text-white/40 text-sm mb-1">normaal</span>
+                <span className="text-white text-xl line-through mb-1">1.395,-</span>
+                <span className="text-white text-sm mb-1">normaal</span>
               </div>
               <Link
                 href="/quickscan"
@@ -217,7 +217,7 @@ export default function Home() {
               >
                 Bekijk mijn groeikansen
               </Link>
-              <p className="text-white/30 text-xs mt-4">Nog beperkt aantal plekken beschikbaar tegen actieprijs.</p>
+              <p className="text-white text-xs mt-4">Nog beperkt aantal plekken beschikbaar tegen actieprijs.</p>
             </div>
             <div className="grid grid-cols-1 gap-4">
               {[
@@ -231,7 +231,7 @@ export default function Home() {
                   <span className="text-[var(--color-gold)] font-serif text-lg font-bold opacity-60 w-6 flex-shrink-0">
                     {String(i + 1).padStart(2, "0")}
                   </span>
-                  <span className="text-white/80 text-sm">{item}</span>
+                  <span className="text-white text-sm">{item}</span>
                 </div>
               ))}
             </div>
@@ -245,7 +245,7 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-serif text-white mb-8">
               Plan een gratis adviesgesprek
             </h2>
-            <p className="text-white/60 text-lg mb-12 leading-relaxed">
+            <p className="text-white text-lg mb-12 leading-relaxed">
               In 30 minuten bespreken we jouw situatie en kansen online. Daarna ontvang je een vrijblijvend voorstel op maat, volledig meetbaar.
             </p>
             <Link
