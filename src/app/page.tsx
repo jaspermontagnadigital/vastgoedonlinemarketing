@@ -197,7 +197,7 @@ export default function Home() {
         <section className="py-24 bg-[var(--color-navy)]">
           <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-4">Volledig gratis</p>
+              <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-4">Tijdelijke actie · €795 i.p.v. €1.395</p>
               <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">
                 Ontdek jouw 5 grootste online kansen
               </h2>
@@ -208,7 +208,7 @@ export default function Home() {
                 href="/quickscan"
                 className="inline-block px-8 py-4 bg-[var(--color-gold)] text-[var(--color-navy)] font-semibold tracking-widest uppercase text-sm hover:bg-[var(--color-gold-light)] transition-colors duration-200"
               >
-                Ontvang jouw gratis quickscan
+                Bestel jouw quickscan
               </Link>
             </div>
             <div className="grid grid-cols-1 gap-4">
