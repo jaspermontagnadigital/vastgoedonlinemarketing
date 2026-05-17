@@ -62,8 +62,8 @@ export default function QuickscanPage() {
             <div className="flex items-end gap-4">
               <span className="text-[var(--color-gold)] text-5xl font-serif font-bold">795,-</span>
               <div className="mb-1">
+                <span className="text-white text-xs block mb-1">Normaal</span>
                 <span className="text-white text-2xl line-through block">1.395,-</span>
-                <span className="text-white text-xs">Normaal</span>
               </div>
             </div>
             <p className="text-white text-sm mt-3">Nog maar een beperkt aantal plekken beschikbaar tegen deze prijs.</p>
