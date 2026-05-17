@@ -201,7 +201,7 @@ export default function Home() {
                 Tijdelijke actie — Bespaar 600,-
               </div>
               <h2 className="text-4xl md:text-5xl font-serif text-white mb-4">
-                Weet binnen 48 uur waar jouw groei ligt
+                Weet binnen een week waar jouw groei ligt
               </h2>
               <p className="text-white/70 leading-relaxed mb-4">
                 Wij scannen jouw volledige online aanwezigheid en leveren 5 concrete groeikansen op maat. Eén extra opdracht dekt de investering ruimschoots.

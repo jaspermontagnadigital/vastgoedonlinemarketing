@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Quickscan | Vastgoed Online Marketing",
   description:
-    "Ontdek binnen 48 uur waar jouw vastgoedbedrijf online kansen laat liggen. Persoonlijk rapport met 5 concrete groeikansen op maat. Nu tijdelijk voor 795,- in plaats van 1.395,-.",
+    "Ontdek binnen een week waar jouw vastgoedbedrijf online kansen laat liggen. Persoonlijk rapport met 5 concrete groeikansen op maat. Nu tijdelijk voor 795,- in plaats van 1.395,-.",
 };
 
 const wins = [
@@ -57,7 +57,7 @@ export default function QuickscanPage() {
               Ontdek wat jouw vastgoedbedrijf online laat liggen
             </h1>
             <p className="text-white/70 text-lg max-w-xl leading-relaxed mb-8">
-              Binnen 48 uur weet je precies waar je klanten misloopt en hoe je dat oplost. Één extra opdracht dekt de investering ruimschoots.
+              Binnen een week weet je precies waar je klanten misloopt en hoe je dat oplost. Één extra opdracht dekt de investering ruimschoots.
             </p>
             <div className="flex items-end gap-4">
               <span className="text-[var(--color-gold)] text-5xl font-serif font-bold">795,-</span>
@@ -108,12 +108,12 @@ export default function QuickscanPage() {
               </div>
               <p className="text-[var(--color-navy)]/40 text-sm mb-6">Minder dan 2,20 per dag</p>
               <p className="text-[var(--color-navy)]/60 leading-relaxed mb-6">
-                Groei begint met weten waar je nu kansen laat liggen. Met de quickscan krijg je in 48 uur een helder beeld van jouw groeipotentieel en een concreet plan om dat te benutten.
+                Groei begint met weten waar je nu kansen laat liggen. Met de quickscan krijg je binnen een week een helder beeld van jouw groeipotentieel en een concreet plan om dat te benutten.
               </p>
               <ul className="space-y-3">
                 {[
                   "Persoonlijk rapport op maat",
-                  "Binnen 48 uur in je inbox",
+                  "Binnen een week in je inbox",
                   "5 concrete kansen uitgewerkt",
                   "Inclusief concurrentieanalyse in jouw regio",
                   "Één extra opdracht dekt de investering",
