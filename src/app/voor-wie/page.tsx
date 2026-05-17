@@ -192,9 +192,16 @@ export default function VoorWiePage() {
                 </svg>
                 <div>
                   <h3 className="font-serif text-xl mb-2 text-white">Ook interessant voor</h3>
-                  <p className="text-sm leading-relaxed text-white">
+                  <p className="text-sm leading-relaxed text-white mb-3">
                     Werk je in of rondom vastgoed maar staat jouw type bedrijf er niet tussen? Dan denken we graag mee.
                   </p>
+                  <ul className="space-y-1">
+                    {ookInteressant.map((item) => (
+                      <li key={item} className="text-white text-sm flex items-center gap-2">
+                        <span className="text-[var(--color-gold)] text-xs">·</span>{item}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
                 <Link href="/contact" className="text-xs tracking-widest uppercase font-semibold text-[var(--color-gold)] mt-auto hover:text-[var(--color-gold-light)] transition-colors">
                   Denk met ons mee ↓
