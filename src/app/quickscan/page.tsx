@@ -51,7 +51,7 @@ export default function QuickscanPage() {
         <section className="bg-[var(--color-navy)] pt-40 pb-24">
           <div className="max-w-6xl mx-auto px-6">
             <div className="inline-block bg-[var(--color-gold)] text-[var(--color-navy)] text-xs font-bold tracking-widest uppercase px-4 py-2 mb-8">
-              Tijdelijke actie — Bespaar 600,-
+              Tijdelijke actie
             </div>
             <h1 className="text-white text-5xl md:text-6xl font-serif font-semibold max-w-3xl leading-tight mb-6">
               Ontdek wat jouw vastgoedbedrijf online laat liggen
@@ -99,7 +99,7 @@ export default function QuickscanPage() {
           <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
             <div>
               <div className="inline-block bg-[var(--color-gold)] text-[var(--color-navy)] text-xs font-bold tracking-widest uppercase px-3 py-1.5 mb-4">
-                Bespaar 600,-
+                Tijdelijke actie
               </div>
               <h2 className="text-3xl md:text-4xl font-serif text-[var(--color-navy)] mb-4">
                 Jouw groei begint met inzicht

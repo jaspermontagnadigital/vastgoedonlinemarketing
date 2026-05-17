@@ -198,7 +198,7 @@ export default function Home() {
           <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="inline-block bg-[var(--color-gold)] text-[var(--color-navy)] text-xs font-bold tracking-widest uppercase px-4 py-2 mb-6">
-                Tijdelijke actie — Bespaar 600,-
+                Tijdelijke actie
               </div>
               <h2 className="text-4xl md:text-5xl font-serif text-white mb-4">
                 Weet binnen een week waar jouw groei ligt
