@@ -178,7 +178,7 @@ export default function Home() {
                   href="/voor-wie"
                   className="group bg-white px-6 py-5 border-l-2 border-[var(--color-gold)] hover:bg-[var(--color-navy)] transition-colors duration-200"
                 >
-                  <span className="text-[var(--color-navy)] group-hover:text-white font-serif text-sm transition-colors duration-200">{item}</span>
+                  <span className="text-[var(--color-navy)] group-hover:text-white font-serif text-base transition-colors duration-200">{item}</span>
                 </Link>
               ))}
             </div>
