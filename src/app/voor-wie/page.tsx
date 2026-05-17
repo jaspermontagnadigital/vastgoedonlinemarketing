@@ -185,17 +185,10 @@ export default function VoorWiePage() {
                   <circle cx="12" cy="12" r="10" /><path d="M12 8v4M12 16h.01" />
                 </svg>
                 <div>
-                  <h3 className="font-serif text-xl mb-2 text-[var(--color-navy)]">Ook interessant voor</h3>
-                  <p className="text-sm leading-relaxed text-[var(--color-navy)]/60 mb-3">
-                    Werk je in of rondom vastgoed maar staat jouw type bedrijf er niet tussen? Dan denken we graag mee.
+                  <h3 className="font-serif text-xl mb-4 text-[var(--color-navy)]">Ook interessant voor</h3>
+                  <p className="text-sm leading-relaxed text-[var(--color-navy)]/60">
+                    {ookInteressant.join(" · ")}
                   </p>
-                  <ul className="space-y-1">
-                    {ookInteressant.map((item) => (
-                      <li key={item} className="text-[var(--color-navy)]/60 text-sm flex items-center gap-2">
-                        <span className="text-[var(--color-gold)] text-xs">·</span>{item}
-                      </li>
-                    ))}
-                  </ul>
                 </div>
                 <Link href="/contact" className="text-xs tracking-widest uppercase font-semibold mt-auto text-[var(--color-navy)] hover:text-[var(--color-gold)] transition-colors">
                   Denk met ons mee ↓
