@@ -147,27 +147,41 @@ export default function Home() {
         </section>
 
         {/* Voor wie */}
-        <section className="py-20 bg-white">
-          <div className="max-w-6xl mx-auto px-6">
-            <div className="mb-12">
-              <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-4">Voor wie</p>
-              <h2 className="text-4xl md:text-5xl font-serif text-[var(--color-navy)] max-w-xl">
-                Herken jij jouw bedrijf?
+        <section className="py-20 bg-[var(--color-cream)]">
+          <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <div>
+              <p className="text-[var(--color-gold)] text-xs tracking-[0.3em] uppercase mb-4">Voor wie wij werken</p>
+              <h2 className="text-4xl md:text-5xl font-serif text-[var(--color-navy)] mb-6">
+                Wij werken voor bedrijven in vastgoed, wonen en financiering
               </h2>
+              <p className="text-[var(--color-navy)]/60 leading-relaxed mb-10">
+                Van makelaars en hypotheekadviseurs tot projectontwikkelaars en verhuurorganisaties. Wij kennen jouw markt en zorgen dat jij online groeit in jouw regio.
+              </p>
+              <Link
+                href="/voor-wie"
+                className="inline-block px-8 py-4 bg-[var(--color-navy)] text-white font-semibold tracking-widest uppercase text-sm hover:bg-[var(--color-navy-light)] transition-colors duration-200"
+              >
+                Bekijk alle doelgroepen
+              </Link>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-10">
-              {["Makelaars", "Hypotheekadviseurs", "Projectontwikkelaars", "Vastgoedbeheerders", "Verhuurorganisaties", "En meer..."].map((item) => (
-                <div key={item} className="bg-[var(--color-navy)] px-4 py-5 text-center">
-                  <span className="text-white text-sm font-serif">{item}</span>
-                </div>
+            <div className="grid grid-cols-2 gap-3">
+              {[
+                "Makelaars",
+                "Hypotheekadviseurs",
+                "Projectontwikkelaars",
+                "Vastgoedbeheerders",
+                "Verhuurorganisaties",
+                "En meer...",
+              ].map((item) => (
+                <Link
+                  key={item}
+                  href="/voor-wie"
+                  className="group bg-white px-6 py-5 border-l-2 border-[var(--color-gold)] hover:bg-[var(--color-navy)] transition-colors duration-200"
+                >
+                  <span className="text-[var(--color-navy)] group-hover:text-white font-serif text-sm transition-colors duration-200">{item}</span>
+                </Link>
               ))}
             </div>
-            <Link
-              href="/voor-wie"
-              className="inline-block px-8 py-4 border-2 border-[var(--color-navy)] text-[var(--color-navy)] font-semibold tracking-widest uppercase text-sm hover:bg-[var(--color-navy)] hover:text-white transition-colors duration-200"
-            >
-              Bekijk alle doelgroepen
-            </Link>
           </div>
         </section>
 
