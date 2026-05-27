@@ -246,10 +246,11 @@ export default function VoorWiePage() {
               </Link>
             </div>
             <div className="bg-white p-10 border-t-2 border-[var(--color-gold)]">
-              <div className="flex items-end gap-3 mb-4">
-                <span className="text-[var(--color-navy)] text-3xl font-serif font-bold">795,-</span>
-                <span className="text-[var(--color-navy)]/30 text-lg line-through mb-0.5">1.395,-</span>
+              <div className="flex items-end gap-3 mb-1">
+                <span className="text-[var(--color-navy)] text-3xl font-serif font-bold">795,-*</span>
+                <span className="text-[var(--color-navy)]/30 text-lg line-through mb-0.5">1.395,-*</span>
               </div>
+              <p className="text-[var(--color-navy)]/40 text-xs mb-4">* Exclusief BTW</p>
               <h3 className="text-[var(--color-navy)] font-serif text-2xl mb-4">Quickscan op maat</h3>
               <p className="text-[var(--color-navy)]/60 text-sm leading-relaxed mb-8">
                 Concreet inzicht in je website, vindbaarheid en conversie. We brengen helder in kaart waar je nu staat en welke verbeterpunten het meeste effect hebben.

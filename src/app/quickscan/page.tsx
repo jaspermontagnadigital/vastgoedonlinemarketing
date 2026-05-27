@@ -60,13 +60,14 @@ export default function QuickscanPage() {
               Binnen een week weet je precies waar je klanten misloopt en hoe je dat oplost. Één extra opdracht dekt de investering ruimschoots.
             </p>
             <div className="flex items-end gap-4">
-              <span className="text-[var(--color-gold)] text-5xl font-serif font-bold">795,-</span>
+              <span className="text-[var(--color-gold)] text-5xl font-serif font-bold">795,-*</span>
               <div className="mb-1">
                 <span className="text-white text-xs block mb-1">Normaal</span>
-                <span className="text-white text-2xl line-through block">1.395,-</span>
+                <span className="text-white text-2xl line-through block">1.395,-*</span>
               </div>
             </div>
             <p className="text-white text-sm mt-3">Nog maar een beperkt aantal plekken beschikbaar tegen deze prijs.</p>
+            <p className="text-white text-xs mt-2">* Alle prijzen zijn exclusief BTW</p>
           </div>
         </section>
         {/* Wat je krijgt */}
@@ -105,8 +106,8 @@ export default function QuickscanPage() {
                 Jouw groei begint met inzicht
               </h2>
               <div className="flex items-end gap-3 mb-2">
-                <span className="text-[var(--color-navy)] text-4xl font-serif font-bold">795,-</span>
-                <span className="text-[var(--color-navy)]/30 text-xl line-through mb-1">1.395,-</span>
+                <span className="text-[var(--color-navy)] text-4xl font-serif font-bold">795,-*</span>
+                <span className="text-[var(--color-navy)]/30 text-xl line-through mb-1">1.395,-*</span>
               </div>
               <p className="text-[var(--color-navy)]/40 text-sm mb-6">Minder dan 2,20 per dag</p>
               <p className="text-[var(--color-navy)]/60 leading-relaxed mb-6">
@@ -127,6 +128,7 @@ export default function QuickscanPage() {
                 ))}
               </ul>
               <p className="text-[var(--color-navy)]/40 text-xs mt-6">Nog maar een beperkt aantal plekken beschikbaar tegen actieprijs.</p>
+              <p className="text-[var(--color-navy)]/40 text-xs mt-1">* Exclusief BTW</p>
             </div>
 
             <div className="bg-[var(--color-cream)] p-10">

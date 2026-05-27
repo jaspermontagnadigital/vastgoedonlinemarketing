@@ -195,11 +195,12 @@ export default function Home() {
               <p className="text-white leading-relaxed mb-4">
                 Wij scannen jouw volledige online aanwezigheid en leveren 5 concrete groeikansen op maat. Eén extra opdracht dekt de investering ruimschoots.
               </p>
-              <div className="flex items-end gap-3 mb-8">
-                <span className="text-[var(--color-gold)] text-4xl font-serif font-bold">795,-</span>
-                <span className="text-white text-xl line-through mb-1">1.395,-</span>
+              <div className="flex items-end gap-3 mb-2">
+                <span className="text-[var(--color-gold)] text-4xl font-serif font-bold">795,-*</span>
+                <span className="text-white text-xl line-through mb-1">1.395,-*</span>
                 <span className="text-white text-sm mb-1">normaal</span>
               </div>
+              <p className="text-white text-xs mb-6">* Exclusief BTW</p>
               <Link
                 href="/quickscan"
                 className="inline-block px-8 py-4 bg-[var(--color-gold)] text-[var(--color-navy)] font-semibold tracking-widest uppercase text-sm hover:bg-[var(--color-gold-light)] transition-colors duration-200"
