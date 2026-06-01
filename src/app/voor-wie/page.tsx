@@ -5,9 +5,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Voor wie | Online marketing voor vastgoed & wonen",
+  title: "Voor wie | Vastgoed Online Marketing",
   description:
-    "Online marketing voor makelaars, hypotheekadviseurs, projectontwikkelaars en vastgoedbeheerders. Meer zichtbaarheid, betere leads en meetbare groei.",
+    "Wij werken voor makelaars, hypotheekadviseurs, projectontwikkelaars en vastgoedbeheerders. Ontdek of wij ook voor jouw bedrijf actief kunnen zijn.",
 };
 
 const doelgroepen = [

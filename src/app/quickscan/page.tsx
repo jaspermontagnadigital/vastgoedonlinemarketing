@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Quickscan | Vastgoed Online Marketing",
   description:
-    "Ontdek binnen een week waar jouw vastgoedbedrijf online kansen laat liggen. Persoonlijk rapport met 5 concrete groeikansen op maat. Nu tijdelijk voor 795,- in plaats van 1.395,-.",
+    "Ontdek binnen een week jouw 5 grootste online groeikansen. Persoonlijk rapport op maat voor jouw vastgoedbedrijf. Nu tijdelijk voor 795,- (ex. BTW).",
 };
 
 const wins = [

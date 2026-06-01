@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Diensten | Vastgoed Online Marketing",
   description:
-    "Beter gevonden worden in Google, meer klanten via social media en inzicht in wat werkt. Ontdek hoe wij makelaars en vastgoedbedrijven helpen groeien in hun regio.",
+    "Van betere vindbaarheid in Google tot social media en websiteontwikkeling. Ontdek onze diensten voor makelaars en vastgoedbedrijven in Nederland.",
 };
 
 const services = [

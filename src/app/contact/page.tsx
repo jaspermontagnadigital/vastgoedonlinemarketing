@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Contact | Vastgoed Online Marketing",
   description:
-    "Plan een gratis adviesgesprek en ontdek hoeveel meer klanten jij online kunt bereiken. Binnen 30 minuten weet je wat er mogelijk is voor jouw vastgoedbedrijf.",
+    "Plan een gratis adviesgesprek en ontdek jouw online groeikansen. In 30 minuten weet je wat er mogelijk is voor jouw vastgoedbedrijf.",
 };
 
 export default function ContactPage() {

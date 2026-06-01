@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Over ons | Vastgoed Online Marketing",
   description:
-    "Wij richten ons volledig op de vastgoedmarkt. Geen generalist die vandaag een bakker en morgen een makelaar helpt. Leer ons kennen en ontdek wat we voor jouw bedrijf kunnen betekenen.",
+    "Volledig gefocust op vastgoed, wonen en financiering. Geen generalist, maar een specialist die jouw markt kent en meetbaar resultaat levert.",
 };
 
 const values = [
