@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Algemene Voorwaarden | Vastgoed Online Marketing",
-  description: "Algemene voorwaarden van Vastgoed Online Marketing.",
+  description: "De algemene voorwaarden van Vastgoed Online Marketing. Van offertes en betaling tot aansprakelijkheid en intellectueel eigendom.",
 };
 
 const articles = [

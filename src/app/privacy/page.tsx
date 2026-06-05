@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Privacyverklaring | Vastgoed Online Marketing",
-  description: "Privacyverklaring van Vastgoed Online Marketing.",
+  description: "Lees hoe Vastgoed Online Marketing omgaat met jouw persoonsgegevens. Transparant, conform de AVG en altijd in jouw belang.",
 };
 
 export default function PrivacyPage() {
